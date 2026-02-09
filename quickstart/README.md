@@ -1,11 +1,13 @@
 # Quick Start for Arduino UNO
 
-This project is intended for user with an Arduino UNO and only requires an IR LED and a 220 Ohm resistor.
+This project is intended for user with an Arduino UNO and only requires an IR Emitter and a 220 Ohm resistor.
 
 #### Arduino Setup
-Connect Digital Pin 9 to an IR LED through a 220 Ohm resistor.  This sketch does not use the TX pin to regulate the signal.
+Connect Digital Pin 9 to an IR Emitter through a 220 Ohm resistor.  This sketch does not use the TX pin to regulate the signal, connect the resistor to ground (GND).
 
-You may add IR LEDs to improve detection but must reduce the resistor value appropriatly.
+The TSAL6200 IR Emitter is recommended as it does a great job penetrating the Pal Mickey nose cover.  You may have issues if you use a cheaper LED.
+
+You may add additional IR Emitters to improve detection but must reduce the resistor value appropriatly.
 
 ![Arduino Wiring](arduino_wiring.png)
 
